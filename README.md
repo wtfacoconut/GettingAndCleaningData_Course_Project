@@ -13,3 +13,9 @@ The R script called run_analysis.R that does the following.
 5.) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Please refer to CodeBook.md for the breakdown of all the variables listed in the "summary.txt" that was available on the assignment submission page.
+
+### Execution instructions:
+- install the "dplyr" package
+- open an R console and run the following command:
+source("run_analysis.R")
+- From this point, the full dataset will be available in the R object labeled "combinedSets"

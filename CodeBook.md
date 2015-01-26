@@ -1,12 +1,23 @@
-## Below is a full listing of all variables reported on in the summary including some basic information about the variable
+## Below is a full listing of all variables reported on in the summary including some 
+## basic information about the variable
+
+
+
+# The following variables were merged in from ther files in the data set which were
+# important in having a single complete dataset:
 
 activity						# This is a numeric ID that identifies the activity being performed by the subject
 subject_num						# The numeric ID for the Subject being tested
-activity_name					# The "descriptive" name of the action being performed by the subject
+activity_name					# The "descriptive" name of the action being performed by the subject.
 
-# These signals were used to estimate variables of the feature vector for each pattern:  
+
+# The following signals were used to estimate variables of the feature vector for each pattern. 
 # Each variable is suffixed with their measurement type of either "mean" or "std" (short 
 # for standard deviation) as well as its 3-axial signals in the X, Y and Z directions.
+#
+# Some additional abbreviations used in the variables below are as follows:
+# Acc = acceleration
+# Mag = Magnitude
 
 tBodyAcc-XYZ		
 tGravityAcc-XYZ		
